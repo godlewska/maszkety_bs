@@ -1,0 +1,70 @@
+body {
+    background: url('images/background_full.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #FFFFFF;
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+@media screen and (max-width: 1024px) {
+
+ body {
+      background: url('images/background_mobile.jpg') no-repeat center center fixed;
+
+      background-size: 100%;
+    }
+
+ }
+
+.navbar {
+  min-height: 80px;
+}
+
+ .navbar-brand {
+   padding: 0 15px;
+   height: 80px;
+   line-height: 80px;
+ }
+
+ .navbar-brand > img {
+   height: 120%;
+   width: auto;
+   padding: 10px;
+ }
+
+ .navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+
+.social-item1 > a > img,
+.social-item2> a > img,
+.social-item3 > a > img {
+
+  height: 40px;
+  width: auto;
+  line-height: 80px;
+}
+
+
+ .navbar-default .navbar-nav > li > a {
+ font-size: 14px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+ color: #839B99;
+}
